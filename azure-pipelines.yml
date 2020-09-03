@@ -2,9 +2,9 @@ trigger:
 - '*'
 
 pool:
-  vmImage: 'MyAgentPool'
+  name: 'MyAgentPool'
   demands:
-    - npm
+  - npm
 
 variables:
   buildConfiguration: 'Release'
